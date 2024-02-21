@@ -25,6 +25,39 @@
     <meta name="twitter:title" content="Nina Carducci">
     <meta name="twitter:description" content="Photographe professionnel">
     <meta name="twitter:image" content="https://github.com/priscillagoessens/OPC_ninacarducci/blob/main/assets/images/nina.webp">
+
+	<!-- shema.org-->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "ProfessionalService",
+		  "name": "Nina Carducci",
+		  "image":"./assets/images/nina.webp",
+		  "description": "Nina Carducci : photographe professionelle",
+		  "url": "https://nina-carducci.github.io/",
+		  "telephone" : "05 56 67 78 89",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressRegion": "Nouvelle-Aquitaine",
+			"addressCountry": "Fr"
+			},
+			"openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			}
+		}
+	</script>
 </head>
 <body>
 	<header id="header">
@@ -103,7 +136,6 @@
 				</figure>
 			</div>
 		</section>
-		
 		<section id="services">
 			<h2 class="title">Mes services</h2>
 			<div class="container">
@@ -168,37 +200,5 @@
 			</div>
 		</div>
 	</footer>
-
-	<script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "ProfessionalService",
-		  "name": "Nina Carducci",
-		  "image":"./assets/images/nina.webp",
-		  "description": "Nina Carducci : photographe professionelle",
-		  "url": "https://nina-carducci.github.io/",
-		  "telephone" : "05 56 67 78 89",
-		  "address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68 avenue Alsace-Lorraine",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200",
-			"addressRegion": "Nouvelle-Aquitaine",
-			"addressCountry": "Fr"
-			},
-			"openingHoursSpecification": {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday"
-				],
-				"opens": "10:00",
-				"closes": "19:00"
-			}
-		}
-	</script>
 </body>
 </html>
